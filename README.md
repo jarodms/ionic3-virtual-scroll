@@ -12,7 +12,12 @@ I'm trying to build a template Ionic app that has the following:
 Most code is copied from __https://github.com/jarodms/ionic3-sidemenu-tabs__
 
 ...and the Ionic Conference App seemed like a good place to start.
-I'm starting with the Confernece app and stripping a lot of it away, plus adding a few things.
+I'm starting with the Conference app and stripping a lot of it away, plus adding a few things.
+
+## Get Moving with this Example:
+  1. `npm i`
+  2. `npm run ionic:serve`
+  
 
 ## Latest
 * 06/25/2018: Configuring project for testing with Karma and Jasmine following the tutorial at https://leifwells.github.io/2017/08/27/testing-in-ionic-configure-existing-projects-for-testing/

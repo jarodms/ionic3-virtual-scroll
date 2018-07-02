@@ -36,5 +36,5 @@ UserInterfaceState.xcuserstate
 
 
 # For this Github project - don't share sensitive info
-environments.*
+environment.*
 *.bat

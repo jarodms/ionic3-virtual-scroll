@@ -32,7 +32,7 @@ import { SupportPage } from '../pages/support/support';
 
 import { ConferenceData } from '../providers/conference-data';
 import { UserData } from '../providers/user-data';
-import { environment } from './environments/environments';
+import { environment } from '../environments/environment';
 
 
 @NgModule({

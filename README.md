@@ -1,4 +1,5 @@
 
+# __Note: Just starting on this example__
 
 # What is this?
 I'm trying to build a template Ionic app that has the following:
@@ -7,7 +8,8 @@ I'm trying to build a template Ionic app that has the following:
   3. Version number at the bottom of the sidemenu
   4. Basic About page
   5. Support page
-  6. Firebase Example
+  6. Firebase Data with *howto get started*
+  7. Virtual Scroll
 
 Most code is copied from __https://github.com/jarodms/ionic3-sidemenu-tabs__
 

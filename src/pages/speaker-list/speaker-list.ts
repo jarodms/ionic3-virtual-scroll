@@ -13,7 +13,6 @@ import { ConferenceData } from '../../providers/conference-data';
 
 import { SessionDetailPage } from '../session-detail/session-detail';
 import { SpeakerDetailPage } from '../speaker-detail/speaker-detail';
-import { AngularFireDatabase } from 'angularfire2/database';
 import { Observable } from 'rxjs/Observable';
 
 // TODO remove
@@ -39,20 +38,14 @@ export class SpeakerListPage  {
     public navCtrl: NavController,
     public confData: ConferenceData,
     public config: Config,
-    public inAppBrowser: InAppBrowser,
-    private db: AngularFireDatabase
+    public inAppBrowser: InAppBrowser
   ) {}
 
-
-  getCourses(listPath): Observable<any[]> {
-    return this.db.list(listPath).valueChanges();
-  }
-
   ionViewDidLoad() {
-    this.coursesObservable = this.getCourses('/courses');
-    /*this.confData.getSpeakers().subscribe((speakers: any[]) => {
+    // this.coursesObservable = this.getCourses('/courses');
+    this.confData.getSpeakers().subscribe((speakers: any[]) => {
       this.speakers = speakers;
-    });*/
+    });
   }
 
   goToSessionDetail(session: any) {
